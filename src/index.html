@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <link href="./output.css" rel="stylesheet" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="bg-[hsl(233_47%_7%)] min-h-screen grid place-content-center gap-4"
+    >
+      <article
+        class="mx-4 grid md:grid-cols-[300px_300px] rounded-lg overflow-hidden max-w-96 md:max-w-[600px]"
+      >
+        <picture class="relative w-fit md:order-1">
+          <source
+            media="(min-width: 800px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt="image"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-[hsl(277_64%_61%_/_55%)]"></div>
+        </picture>
+        <div
+          class="px-6 py-8 flex flex-col gap-8 bg-[hsl(244_38%_16%)] text-white text-center font-inter"
+        >
+          <div class="flex flex-col gap-4">
+            <h1 class="text-3xl md:text-2xl font-bold md:text-start">
+              Get <span class="text-[hsl(277_64%_61%)]">insights</span> that
+              help your business grow.
+            </h1>
+            <p
+              class="text-white/75 font-lexend-deca md:text-[14px] md:text-start"
+            >
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <div class="flex flex-col gap-4 md:flex-row md:text-start">
+            <div class="flex flex-col gap-2">
+              <span class="font-bold text-2xl md:text-lg">10k+</span>
+              <span
+                class="text-[14px] md:text-[12px] text-white/60 font-lexend-deca uppercase"
+                >companies</span
+              >
+            </div>
+            <div class="flex flex-col gap-2">
+              <span class="font-bold text-2xl md:text-lg">314</span>
+              <span
+                class="text-[14px] md:text-[12px] text-white/60 font-lexend-deca uppercase"
+                >templates</span
+              >
+            </div>
+            <div class="flex flex-col gap-2">
+              <span class="font-bold text-2xl md:text-lg">12m+</span>
+              <span
+                class="text-[14px] md:text-[12px] text-white/60 font-lexend-deca uppercase"
+                >queries</span
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Dayron Furcain</a>.
+      </div>
+    </main>
+  </body>
+</html>
