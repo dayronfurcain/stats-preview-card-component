@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Stats Preview Card Component](https://your-solution-url.com)
-- Live Site URL: [Stats Preview Card Component](https://your-live-site-url.com)
+- Solution URL: [Stats Preview Card Component](https://github.com/dayronfurcain/stats-preview-card-component)
+- Live Site URL: [Stats Preview Card Component](https://silver-fox-02e64a.netlify.app/)
 
 ## My process
 
